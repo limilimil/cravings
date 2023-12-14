@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cravings</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+        <input type="checkbox" id="check" />
+        <label for="check">
+        <i style="font-size:24px" class="fa" id="btn">&#xf0c9;</i>
+        <i  class="fa" id="cancel">&#xf00d;</i>
+        </label>
+    <div class="sidebar">
+        <header>Menu</header>
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+                </li>
+                <li>
+                    
+                    <a href="breakfast.html">Breakfast</a>
+                
+                </li>
+                <li> 
+                <a href="lunch.html">Lunch</a>
+                 </li>
+                <li>
+                <a href="dinner.html">Dinner</a>
+                </li>
+                <li>
+                    <a href="dessert.html">Dessert</a>
+                </li>
+                <li>
+                    <a href="baking.html">Baking</a>
+                </li>
+                <li>
+                    <a href="vegetarian.html">Vegetarian</a>
+                </li>
+                <li>
+                <a href="about.html">About Us</a>
+                </li>
+                <li>
+                <a href="contact.html">Contact</a>
+                </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="image">
+          <img src="logo.jpeg"  alt="logo" width="70"height="70">
+        </div>
+        <div class="text">
+          <h1>Cravings</h1>
+        </div>
+
+    </div>
+    <br>
+    <div class="h2" id="recipepagetitle">
+        <h2>Overnight Oats recipe </h2>
+    </div>
+
+                
+    <img src="overnightoatsbanner.jpg" alt="overnightoatsbanner" id="recipebanner">
+
+    <div class="row"> 
+        <div class="column2" id="recipeinfo">
+            <div>
+                <p><b>Serving: </b>1</p>
+                <p><b>Total time: </b>10 mins </p>
+                <p><b>Prep time: </b>10 mins </p>
+                
+            </div> 
+            <h2>Ingredients</h2>
+            <ul class="ingredientslist">
+                <li>¼ tsp ground cinnamon</li>
+                <li>50g rolled porridge oats</li>
+                <li>2 tbsp natural yogurt</li>
+                <li>50g mixed berries</li>
+                <li>drizzle of honey</li>
+                <li>½ tbsp nut butter </li>
+                
+            </ul> 
+            <section class="review-box">
+                <h2>Leave us a Review</h2>
+                    <div class="stars" >
+                        <span class="star" onclick="rateProduct(1)">★</span>
+                        <span class="star" onclick="rateProduct(2)">★</span>
+                        <span class="star" onclick="rateProduct(3)">★</span>
+                        <span class="star" onclick="rateProduct(4)">★</span>
+                        <span class="star" onclick="rateProduct(5)">★</span>
+                    </div>
+                    <br>
+                    <textarea id="reviewText" placeholder="Write your review here..." rows="4" ></textarea>
+                    <br>
+                    <button onclick="submitReview()">Submit Review</button>
+             </section>
+        </div>
+    
+        <div class="recipecontent">
+            <h2 >Method</h2>
+            <div class="recipecontent2">
+                <h4>Step 1: </h4>
+                <P>The night before serving, stir the cinnamon and 100ml water (or milk) into your oats with a pinch of salt.  </p>
+                <h4>Step 2:</h4>
+                <p>The next day, loosen with a little more water (or milk) if needed. Top with the yogurt, 
+                 berries, a drizzle of honey and the nut butter..</P>
+            
+                    <a id="readmore" href="https://www.bbcgoodfood.com/recipes/overnight-oats">Read More...</a>
+            </div>
+        </div>
+     </div>
+     
+     <footer>
+        <h3>Follow us</h3>  
+        
+        <div class="row"> 
+
+          <div class="footerimg">
+              <a href="https://www.instagram.com/goldsmithsisoc/">
+                  <img src="instagram.jpg" width="65"height="65">
+              </a>
+              <a href="https://www.tiktok.com/discover/Goldsmiths-isoc">
+                  <img src="tiktok.jpg" width="65"height="65">
+              </a>
+          </div>
+          <p>Email: <a id="emailcontact" href="mailto:contact@cravings.com">contact@cravings.com</a></p>
+      </div>
+        </footer>   
+</body>
+</html>

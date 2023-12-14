@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cravings</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+        <input type="checkbox" id="check" />
+        <label for="check">
+        <i style="font-size:24px" class="fa" id="btn">&#xf0c9;</i>
+        <i  class="fa" id="cancel">&#xf00d;</i>
+        </label>
+    <div class="sidebar">
+        <header>Menu</header>
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+                </li>
+                <li>
+                    
+                    <a href="breakfast.html">Breakfast</a>
+                
+                </li>
+                <li> 
+                <a href="lunch.html">Lunch</a>
+                 </li>
+                <li>
+                <a href="dinner.html">Dinner</a>
+                </li>
+                <li>
+                    <a href="dessert.html">Dessert</a>
+                </li>
+                <li>
+                    <a href="baking.html">Baking</a>
+                </li>
+                <li>
+                    <a href="vegetarian.html">Vegetarian</a>
+                </li>
+                <li>
+                <a href="about.html">About Us</a>
+                </li>
+                <li>
+                <a href="contact.html">Contact</a>
+                </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="image">
+          <img src="logo.jpeg" width="70"height="70">
+        </div>
+        <div class="text">
+          <h1>Cravings</h1>
+        </div>
+
+    </div>
+    <br>
+    <div class="h2" id="recipepagetitle">
+        <h2>Omelette </h2>
+    </div>
+
+                
+    <img src="omelletebanner2.jpg" alt="omelletebanner" id="recipebanner">
+
+    <div class="row"> 
+        <div class="column2" id="recipeinfo">
+            <div>
+                <p><b>Serving: </b>12-14</p>
+                <p><b>Total time: </b>1hr 5min </p>
+                <p><b>Prep time: </b>18min </p>
+                <p><b>Cooking time: </b>15min </p>
+            </div> 
+            <h2>Ingredients</h2>
+            <ul class="ingredientslist">
+                <li>500g potatoes </li>
+                <li>1 white onion, preferrably white</li>
+                <li>150ml extra-virgin olive oil</li>
+                <li>3 tbsp chopped flat-leaf parsley</li>
+                <li> 6 eggs</li>
+            </ul> 
+
+            <section class="review-box">
+                <h2>Leave us a Review</h2>
+                    <div class="stars" >
+                        <span class="star" onclick="rateProduct(1)">★</span>
+                        <span class="star" onclick="rateProduct(2)">★</span>
+                        <span class="star" onclick="rateProduct(3)">★</span>
+                        <span class="star" onclick="rateProduct(4)">★</span>
+                        <span class="star" onclick="rateProduct(5)">★</span>
+                    </div>
+                    <br>
+                    <textarea id="reviewText" placeholder="Write your review here..." rows="4" ></textarea>
+                    <br>
+                    <button onclick="submitReview()">Submit Review</button>
+             </section>
+        </div>
+    
+        <div class="recipecontent">
+          <h2 >Method</h2>
+          <div class="recipecontent2">
+              <h4>Step 1</h4>
+              <P>Scrape the new potatoes or leave the skins on, if you prefer. Cut them into thick slices. Chop the onion. </p>
+              <h4>Step 2</h4>
+              <p>Heat the extra-virgin olive oil in a large frying pan, 
+              add the potatoes and onion and stew gently, partially covered, 
+              for 30 mins, stirring occasionally until the potatoes are softened.</P>
+              <h4>Step 3</h4>
+              <p>Strain the potatoes and onion through a colander into a large bowl (set the strained oil aside).</p>
+              <p>Beat the eggs separately, then stir into the potatoes with the parsley and plenty of salt and pepper. 
+              Heat a little of the strained oil in a smaller pan.</p>
+              <h4>Step 4</h4>
+              <p>Tip everything into the pan and cook on a moderate heat, using a spatula to shape the omelette into a cushion.</p>
+            </p>
+            <a id="readmore" href="https://www.bbcgoodfood.com/recipes/real-spanish-omelette">Read More...</a>
+          </div>
+        </div>
+     
+     <footer>
+        <h3>Follow us</h3>  
+        
+        <div class="row"> 
+
+          <div class="footerimg">
+              <a href="https://www.instagram.com/goldsmithsisoc/">
+                  <img src="instagram.jpg" width="65"height="65">
+              </a>
+              <a href="https://www.tiktok.com/discover/Goldsmiths-isoc">
+                  <img src="tiktok.jpg" width="65"height="65">
+              </a>
+          </div>
+          <p>Email: <a id="emailcontact" href="mailto:contact@cravings.com">contact@cravings.com</a></p>
+      </div>
+        </footer>   
+</body>
+</html>

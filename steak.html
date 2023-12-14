@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cravings</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+        <input type="checkbox" id="check" />
+        <label for="check">
+        <i style="font-size:24px" class="fa" id="btn">&#xf0c9;</i>
+        <i  class="fa" id="cancel">&#xf00d;</i>
+        </label>
+    <div class="sidebar">
+        <header>Menu</header>
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+                </li>
+                <li>  
+                <a href="breakfast.html">Breakfast</a>
+                </li>
+                <li> 
+                <a href="lunch.html">Lunch</a>
+                 </li>
+                <li>
+                <a href="dinner.html">Dinner</a>
+                </li>
+                <li>
+                    <a href="dessert.html">Dessert</a>
+                </li>
+                <li>
+                    <a href="baking.html">Baking</a>
+                </li>
+                <li>
+                    <a href="vegetarian.html">Vegetarian</a>
+                </li>
+                <li>
+                <a href="about.html">About Us</a>
+                </li>
+                <li>
+                <a href="contact.html">Contact</a>
+                </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="image">
+          <img src="logo.jpeg" width="70"height="70" alt="logo">
+        </div>
+        <div class="text">
+          <h1>Cravings</h1>
+        </div>
+
+    </div>
+    <br>
+    <div class="h2" id="recipepagetitle">
+        <h2>Steak Recipe</h2>
+    </div>
+                
+    <img src="steakbanner.jpeg" id="recipebanner" alt = "steakbanner">
+
+    <div class="row"> 
+        <div class="column2" id="recipeinfo">
+            <div>
+                <p><b>Serving: </b>2</p>
+                <p><b>Total time: </b>15 mins </p>
+                <p><b>Prep time: </b>5 mins </p>
+                <p><b>Cooking time: </b>10 mins</p>
+            </div> 
+            <h2>Ingredients</h2>
+            <ul class="ingredientslist">
+                <li>2 rib-eye steaks, each about 200g and 2cm thick</li>
+                <li>1tbsp sunflower oil</li>
+                <li>1 tbsp/25g butter</li>
+                <li>1 garlic clove, left whole but bashed once</li>
+                <li>thyme, optional</li>
+    
+            </ul> 
+
+            <section class="review-box">
+                <h2>Leave us a Review</h2>
+                    <div class="stars" >
+                        <span class="star" onclick="rateProduct(1)">★</span>
+                        <span class="star" onclick="rateProduct(2)">★</span>
+                        <span class="star" onclick="rateProduct(3)">★</span>
+                        <span class="star" onclick="rateProduct(4)">★</span>
+                        <span class="star" onclick="rateProduct(5)">★</span>
+                    </div>
+                    <br>
+                    <textarea id="reviewText" placeholder="Write your review here..." rows="4" ></textarea>
+                    <br>
+                    <button onclick="submitReview()">Submit Review</button>
+             </section>
+        </div>
+    
+        <div class="recipecontent">
+            <h2 >Method</h2>
+            <div class="recipecontent2">
+                <h4>Step 1: </h4>
+                <P>Up to 8 hrs before cooking, 
+                    pat the steaks dry with kitchen paper and season with salt and pepper.</p>
+                <h4>Step 2:</h4>
+                <p>Heat the oil over a high flame in a heavy-based frying pan that will comfortably fit both steaks. When the oil is shimmering, 
+                    turn the heat down to medium-high and add the butter. </P>
+                <h4>Step 3:</h4>
+                <p>Once it's sizzling, carefully lay the steaks in the pan, tucking the garlic and herbs in at the sides.</p>
+                <h4>Step 4:</h4>
+                <p>Stand over the steaks with a pair of tongs, 
+                    searing and turning them every 30 seconds to 1 min so they get a nice brown crust.</p>
+                <h4>Step 5:</h4>
+                <p>As a rough guide, each steak will take 4 mins in total for rare, 
+                    5-6 mins in total for medium and 8-10 mins for well done</p>
+    
+                <a href= https://www.bbcgoodfood.com/recipes/pan-fried-ribeye-steak>Read More...</a>
+            </div>
+        </div>
+     </div>
+     
+     <footer>
+        <h3>Follow us</h3>  
+        
+        <div class="row"> 
+
+          <div class="footerimg">
+              <a href="https://www.instagram.com/goldsmithsisoc/">
+                  <img src="instagram.jpg" width="65"height="65" alt ="instagram">
+              </a>
+              <a href="https://www.tiktok.com/discover/Goldsmiths-isoc">
+                  <img src="tiktok.jpg" width="65"height="65" alt = "tiktok">
+              </a>
+          </div>
+          <p>Email: contact@cravings.com </p>
+      </div>
+        </footer>   
+</body>
+</html>

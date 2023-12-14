@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cravings</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+        <input type="checkbox" id="check" />
+        <label for="check">
+        <i style="font-size:24px" class="fa" id="btn">&#xf0c9;</i>
+        <i  class="fa" id="cancel">&#xf00d;</i>
+        </label>
+    <div class="sidebar">
+        <header>Menu</header>
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+                </li>
+                <li>
+                    
+                    <a href="breakfast.html">Breakfast</a>
+                
+                </li>
+                <li> 
+                <a href="lunch.html">Lunch</a>
+                 </li>
+                <li>
+                <a href="dinner.html">Dinner</a>
+                </li>
+                <li>
+                    <a href="dessert.html">Dessert</a>
+                </li>
+                <li>
+                    <a href="baking.html">Baking</a>
+                </li>
+                <li>
+                    <a href="vegetarian.html">Vegetarian</a>
+                </li>
+                <li>
+                <a href="about.html">About Us</a>
+                </li>
+                <li>
+                <a href="contact.html">Contact</a>
+                </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="image">
+          <img src="logo.jpeg" alt="logo" width="70"height="70">
+        </div>
+        <div class="text">
+          <h1>Cravings</h1>
+        </div>
+
+    </div>
+    <br>
+    <div class="h2" id="recipepagetitle">
+        <h2>Chicken Curry recipe </h2>
+    </div>
+
+                
+    <img src="Chickencurrybanner.jpg" alt="Chickencurrybanner" id="recipebanner">
+
+    <div class="row"> 
+        <div class="column2" id="recipeinfo">
+          <div>
+            <p><b>Serving: </b>4</p>
+            <p><b>Total time: </b>50 mins </p>
+            <p><b>Prep time: </b>5 mins </p>
+            <p><b>Cooking time: </b>45 mins </p>
+        </div>
+      
+        <h2>Ingredients</h2>
+        <ul class="ingredientslist">
+            <li>2 tbsp sunflower oil</li>
+            <li>1 onion, thinly sliced</li>
+            <li>2 garlic cloves, crushed</li>
+            <li>thumb-sized piece of ginger, grated</li>
+            <li>6 chicken thighs, boneless and skinless</li>
+            <li>3 tbsp medium spice paste (tikka works well)</li>
+            <li>400g can chopped tomatoes</li>
+            <li>100g Greek yogurt</li>
+            <li>1 small bunch of coriander, leaves chopped</li>
+            <li>50g ground almonds</li>
+            <li>naan breads or cooked basmati rice, to serve</li>
+        </ul> 
+
+            <section class="review-box">
+                <h2>Leave us a Review</h2>
+                    <div class="stars">
+                        <span class="star" onclick="rateProduct(1)">★</span>
+                        <span class="star" onclick="rateProduct(2)">★</span>
+                        <span class="star" onclick="rateProduct(3)">★</span>
+                        <span class="star" onclick="rateProduct(4)">★</span>
+                        <span class="star" onclick="rateProduct(5)">★</span>
+                    </div>
+                    <br>
+                    <textarea id="reviewText" placeholder="Write your review here..." rows="4"></textarea>
+                    <br>
+                    <button onclick="submitReview()">Submit Review</button>
+             </section>
+        </div>
+    
+        <div class="recipecontent">
+            <h2>Method</h2>
+            <div class="recipecontent2">
+              <h4>Step 1</h4>
+              <P>Heat the oil in a flameproof casserole dish or large frying pan over a medium heat.</p>
+              <h4>Step 2</h4>
+              <p>Add the onion and a generous pinch of salt and fry for 8-10 mins, or until the onion has turned golden brown and sticky.</P>
+              <h4>Step 3</h4>
+              <p>Add the garlic and ginger, cooking for a further minute.</p>
+              <h4>Step 4</h4>
+              <p>Chop the chicken into chunky 3cm pieces, 
+              add to the pan and fry for 5 mins before stirring through the spice paste and tomatoes, along with 250ml water.</p>
+              <h4>Step 5</h4>
+              <p>Bring to the boil, lower to a simmer and cook on a gentle heat uncovered for 25-30 mins or until rich and slightly reduced.</p>
+              <h4>Step 6</h4>
+              <p>Stir though the yogurt, coriander and ground almonds, season and serve with warm naan or fluffy basmati rice.</p>
+              <a id="readmore" href="https://www.bbcgoodfood.com/recipes/easy-chicken-curry">Read More...</a>
+             </a>
+            </div>
+        </div>
+     </div>
+     
+     <footer>
+        <h3>Follow us</h3>  
+        
+        <div class="row"> 
+
+          <div class="footerimg" >
+              <a href="https://www.instagram.com/goldsmithsisoc/">
+                  <img src="instagram.jpg" width="65"height="65">
+              </a>
+              <a href="https://www.tiktok.com/discover/Goldsmiths-isoc">
+                  <img src="tiktok.jpg" width="65"height="65">
+              </a>
+          </div>
+          <p>Email: <a id="emailcontact" href="mailto:contact@cravings.com">contact@cravings.com</a></p>
+      </div>
+        </footer>   
+</body>
+</html>
